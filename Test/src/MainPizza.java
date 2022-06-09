@@ -24,6 +24,12 @@ public class MainPizza {
 	System.out.println(pizza3.bread);
 	System.out.println(pizza3.sauce);
 	System.out.println(pizza3.cheese);
+	
+	
+	// Since we only used 1 argument, this object will be created using the 1st constructor
+	Pizza pizza1 = new Pizza("Thin crust");
+	System.out.println("This is pizza 1, from constructor 1");
+	System.out.println(pizza1.bread);
 
 	
 	}
