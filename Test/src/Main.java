@@ -2,6 +2,9 @@ import java.util.ArrayList;
 
 public class Main {
 	
+	
+	// eclipse token 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
+	
 //	public static void main(String[]args) {
 
 		// String = a reference data type that can store one or more 
@@ -340,10 +343,6 @@ public class Main {
 		// the characteristics of an object and what actions can this object perform.
 		
 		
-		
-	
-	
-	
 	
 ////////////////////////////////////////////////////////////
 
@@ -354,7 +353,11 @@ public class Main {
 	
 	
 	
-	
+////////////////////////////////////////////////////////////
+
+	// toString() = special method that all objects inherit
+	// 				that returns a string that "textually represents" an object.
+	//				can be used both implicitly and explicitly
 	
 	
 	
