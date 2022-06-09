@@ -15,5 +15,7 @@ public class NewCar {
 		// we create a variable with a custom string print
 		String myString = make + "\n" + model + "\n" + color + "\n" + year;
 		return myString;
+		
+		// Test 
 	}
 }
