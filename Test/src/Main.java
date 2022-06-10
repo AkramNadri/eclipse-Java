@@ -361,6 +361,20 @@ public class Main {
 	
 	
 	
+////////////////////////////////////////////////////////////
+
+	
+	// Array of objects
+	
+//	int [] numbers = new int [3];
+//	char [] characters = new char [4];
+//	String [] strings = new String[5];
+	
+	
+	
+	
+	
+	
 	
 	
 	
