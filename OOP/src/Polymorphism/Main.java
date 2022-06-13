@@ -8,7 +8,8 @@ public class Main {
 		// 				  The ability of an object to identify as more than one type
 
 		// All these objects identify as Vehicles
-		// They are all child classes of Vehicle
+		// They are all child classes of Vehicle because we used the extends keyword
+		// - inheritance
 		Car car = new Car();
 		Bicycle bicycle = new Bicycle();
 		Boat boat = new Boat();
