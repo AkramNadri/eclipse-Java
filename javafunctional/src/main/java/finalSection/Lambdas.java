@@ -2,7 +2,6 @@ package finalSection;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;
-import java.util.jar.Attributes.Name;
 
 public class Lambdas {
 
@@ -49,4 +48,21 @@ public class Lambdas {
 		
 		System.out.println(moreThenOneArgument.apply("Akram", 30));
 	}	
+	
+	
+	// Pure functional programming has a set of rules to follow
+	
+	// - No State 
+	
+	// - Pure Functions
+	
+	// - No Side Effects
+	
+	// Higher Order Functions
+	
+	
+	// * The function takes one or more functions as parameters
+	
+	// * The function returns another function as a result
+	
 }
