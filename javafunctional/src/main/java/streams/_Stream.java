@@ -66,6 +66,13 @@ public class _Stream {
 				.noneMatch(person -> person.gender == Gender.NONBINARY);
 
 		System.out.println(checkGender);
+		
+		
+		
+		boolean checkIfMale = people.stream()
+				.noneMatch(person -> person.gender == Gender.MALE);
+
+		System.out.println(checkIfMale);
 	}
 
 
