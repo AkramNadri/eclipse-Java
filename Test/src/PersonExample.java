@@ -1,8 +1,7 @@
-import javax.swing.border.EmptyBorder;
 
-import org.w3c.dom.ls.LSOutput;
+public class PersonExample {
 
-public class Pizza {
+
 	
 	public static void main(String[] args) {
 		
