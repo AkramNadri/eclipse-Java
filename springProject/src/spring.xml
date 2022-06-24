@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+  
+  
+<!-- Here we are defining a bean-->  
+<!-- Must provide an "id" and "class" --> 
+
+<!-- class = spring factory needs to know which 
+     class it needs to instanstiate the object from --> 
+      
+<!-- id = reference to the bean, every bean will have an id, 
+in any class we can ask for triangle id, spring will 
+locate the id and instantiate the corresponding class -->  
+ 
+<bean id="triangle" class="com.javatpoint.Triangle">  
+</bean>  
+  
+ </beans> 
