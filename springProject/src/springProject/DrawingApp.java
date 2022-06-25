@@ -20,7 +20,7 @@ public class DrawingApp {
 		
 		// Instantiate BeanFactory
 		// Using Xml BeanFactory reads the configurations of the bean from spring.xml
-		ApplicationContext context = new ClassPathXmlApplicationContext("/Users/ak/Documents/eclipse-workspace1/springProject/src");
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("springProject/resources/spring.xml");
 		
 		// Here we are asking the BeanFactory to retrieve the specified bean
 		// we use getBean method and pass the id of the bean

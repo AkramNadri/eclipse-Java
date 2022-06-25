@@ -17,7 +17,7 @@
 in any class we can ask for triangle id, spring will 
 locate the id and instantiate the corresponding class -->  
  
-<bean id="triangle" class="com.javatpoint.Triangle">  
+<bean id="triangle" class="springProject">  
 </bean>  
   
  </beans> 
